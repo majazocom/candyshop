@@ -3,36 +3,42 @@
         "title": "Hallonskalle",
         "id": 1,
         "desc": "Halvt rosa halvt svart döskalle som smakar hallon och lakrits.",
-        "vegan": false
+        "vegan": false,
+        "svg": "https://www.flaticon.com/svg/vstatic/svg/1888/1888900.svg?token=exp=1616059889~hmac=08b47ef5e52a1e520d1a45ae36cf7173"
     },
     {
         "title": "Hallonskalle Mini",
         "id": 2,
         "desc": "Halvt rosa halvt svart döskalle som smakar hallon och lakrits.",
-        "vegan": true
+        "vegan": true,
+        "svg": "https://www.flaticon.com/svg/vstatic/svg/4363/4363749.svg?token=exp=1616059882~hmac=c7e2b2118ab2e7c9aab3288d6bfb7a65"
     },
     {
         "title": "Dumle",
         "id": 3,
         "desc": "Choklad- och kolagodis",
-        "vegan": false
+        "vegan": false,
+        "svg": "https://www.flaticon.com/svg/vstatic/svg/2971/2971454.svg?token=exp=1616059882~hmac=39b5157eb4e59964fa22b593b189f9a1"
     },
     {
         "title": "Sura Nappar",
         "id": 4,
         "desc": "Surt godis i form av napp.",
-        "vegan": false
+        "vegan": false,
+        "svg": "https://www.flaticon.com/svg/vstatic/svg/4321/4321636.svg?token=exp=1616059882~hmac=fedacc0db6a8ea8953f43322ff9d4291"
     },
     {
         "title": "Fizzy Pops",
         "id": 5,
         "desc": "Surt godis i form av flaska.",
-        "vegan": false
+        "vegan": false,
+        "svg": "https://www.flaticon.com/svg/vstatic/svg/3132/3132755.svg?token=exp=1616059882~hmac=ccb715e8a92b96b6563e26b570f438a3"
     },
     {
         "title": "Hallonbåtar",
         "id": 6,
         "desc": "Hallonsmakande godis i form av en båt.",
-        "vegan": false
+        "vegan": false,
+        "svg": "https://www.flaticon.com/svg/vstatic/svg/1075/1075135.svg?token=exp=1616059882~hmac=68137d1eed6c77bfa39f4b1a92f78e43"
     }
 ]
