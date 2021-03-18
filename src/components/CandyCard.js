@@ -1,7 +1,8 @@
-const CandyCard = () => {
+const CandyCard = (props) => {
     return ( 
         <section>
-            <h3>Candy Card</h3>
+            <img width="200" height="200" src={props.candy.svg} alt={props.candy.title} />
+            <h3>{props.candy.title}</h3>
         </section>
      );
 }
