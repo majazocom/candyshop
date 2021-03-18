@@ -14,7 +14,7 @@ ReactDOM.render(
       <Navigation />
       <Route exact path="/" component={App} />
       <Route exact path="/candyshop" component={CandyShop} />
-      <Route exact path="/candyinfo:id" component={CandyInfo} />
+      <Route exact path="/candyinfo/:id" component={CandyInfo} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

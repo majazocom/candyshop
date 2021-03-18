@@ -1,11 +1,19 @@
-const CandyCard = (props) => {
+import { Link } from "react-router-dom";
 
-    return ( 
+const CandyCard = (props) => {
+    const data = props.candy;
+    const id = props.candy.id;
+    return (
         <section>
-            <img width="200" height="200" src={"./svg/" + props.candy.id + ".svg"} alt={props.candy.title} />
-            <h3>{props.candy.title}</h3>
+            <Link to={{
+                pathname: 'candyinfo/:' + id,
+                state: {data}
+            }}>
+                <img width="200" height="200" src={"./svg/" + id + ".svg"} alt={data.title} />
+                <h3>{data.title}</h3>
+            </Link>
         </section>
-     );
+    );
 }
- 
+
 export default CandyCard;
